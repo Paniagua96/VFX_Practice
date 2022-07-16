@@ -20,7 +20,7 @@ public class CS_CameraMove : MonoBehaviour
             var rotX = Input.GetAxis("Mouse X") * rotSpeed * Time.deltaTime;
             var rotY = Input.GetAxis("Mouse Y") * rotSpeed * Time.deltaTime;
 
-            transform.Rotate(-rotY, rotX, 0);
+            transform.Rotate(0, rotX, 0);
         }
 
 
